@@ -108,7 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/bonito/proprietary/product/etc/sysconfig/pixel_experience_2018.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2018.xml \
     vendor/google/bonito/proprietary/product/etc/sysconfig/pixel_experience_2019_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2019_midyear.xml \
     vendor/google/bonito/proprietary/product/etc/sysconfig/tmo_grsu_sysconfig.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/tmo_grsu_sysconfig.xml \
-    vendor/google/bonito/proprietary/product/etc/sysconfig/vzw_mvs_sysconfig.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/vzw_mvs_sysconfig.xml \
     vendor/google/bonito/proprietary/product/etc/sysconfig/whitelist_com.android.omadm.service.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/whitelist_com.android.omadm.service.xml \
     vendor/google/bonito/proprietary/lib/dsp/elmyra.so:$(TARGET_COPY_OUT_SYSTEM)/lib/dsp/elmyra.so \
     vendor/google/bonito/proprietary/product/lib/libdmengine.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libdmengine.so \
@@ -481,6 +480,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/bonito/proprietary/vendor/firmware/adsp.b28:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b28 \
     vendor/google/bonito/proprietary/vendor/firmware/adsp.b29:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b29 \
     vendor/google/bonito/proprietary/vendor/firmware/adsp.b30:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b30 \
+    vendor/google/bonito/proprietary/vendor/firmware/adsp.b31:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b31 \
     vendor/google/bonito/proprietary/vendor/firmware/adsp.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.mbn \
     vendor/google/bonito/proprietary/vendor/firmware/adsp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.mdt \
     vendor/google/bonito/proprietary/vendor/firmware/adspr.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/adspr.jsn \
@@ -578,6 +578,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/bonito/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/google/bonito/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
     vendor/google/bonito/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
+    vendor/google/bonito/proprietary/vendor/firmware/manifest.xml:$(TARGET_COPY_OUT_VENDOR)/firmware/manifest.xml \
     vendor/google/bonito/proprietary/vendor/firmware/modemuw.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/modemuw.jsn \
     vendor/google/bonito/proprietary/vendor/firmware/nanoapp_config.textproto:$(TARGET_COPY_OUT_VENDOR)/firmware/nanoapp_config.textproto \
     vendor/google/bonito/proprietary/vendor/firmware/pn557.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/pn557.bin \
@@ -1290,6 +1291,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/bonito/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/EU/DT/Commercial/CZ/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/EU/DT/Commercial/CZ/mcfg_sw.mbn \
     vendor/google/bonito/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/EU/DT/Commercial/Croatia/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/EU/DT/Commercial/Croatia/mcfg_sw.mbn \
     vendor/google/bonito/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/EU/DT/Commercial/Greece/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/EU/DT/Commercial/Greece/mcfg_sw.mbn \
+    vendor/google/bonito/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/EU/DT/Commercial/NL/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/EU/DT/Commercial/NL/mcfg_sw.mbn \
     vendor/google/bonito/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/EU/DT/Commercial/PL/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/EU/DT/Commercial/PL/mcfg_sw.mbn \
     vendor/google/bonito/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/EU/DT/Non_VoLTE/Commercial/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/EU/DT/Non_VoLTE/Commercial/mcfg_sw.mbn \
     vendor/google/bonito/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/EU/DT/VoLTE/Commercial/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/EU/DT/VoLTE/Commercial/mcfg_sw.mbn \
@@ -1363,6 +1365,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/bonito/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/Pixel/NA/MTS/Commercial/CA/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/Pixel/NA/MTS/Commercial/CA/mcfg_sw.mbn \
     vendor/google/bonito/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/Pixel/NA/Solo_PC/Commercial/CA/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/Pixel/NA/Solo_PC/Commercial/CA/mcfg_sw.mbn \
     vendor/google/bonito/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/Pixel/NA/Sprint_FI/Commercial/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/Pixel/NA/Sprint_FI/Commercial/mcfg_sw.mbn \
+    vendor/google/bonito/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/Pixel/NA/Sprint_FI_Data/Commercial/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/Pixel/NA/Sprint_FI_Data/Commercial/mcfg_sw.mbn \
     vendor/google/bonito/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/Pixel/NA/TMO_FI/Commercial/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/Pixel/NA/TMO_FI/Commercial/mcfg_sw.mbn \
     vendor/google/bonito/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/Pixel/NA/TbayCity/NonVoLTE/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/Pixel/NA/TbayCity/NonVoLTE/mcfg_sw.mbn \
     vendor/google/bonito/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/Pixel/NA/Telus/Lab/CA/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/Pixel/NA/Telus/Lab/CA/mcfg_sw.mbn \

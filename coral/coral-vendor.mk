@@ -39,7 +39,6 @@ PRODUCT_PACKAGES += \
     AmbientSensePrebuilt \
     AppDirectedSMSService \
     CarrierLocation \
-    CarrierServices \
     CarrierSettings \
     CarrierSetup \
     CarrierWifi \

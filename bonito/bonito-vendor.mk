@@ -1422,6 +1422,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/bonito/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.txt:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.txt
 
 PRODUCT_PACKAGES += \
+    GCS \
     libMpeg4SwEncoder \
     libbtnv \
     TimeService \

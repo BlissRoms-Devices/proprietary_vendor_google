@@ -20,9 +20,8 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/google/sargo/proprietary/vendor/etc/sensors/config/s4_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/s4_ak991x_0.json \
     vendor/google/sargo/proprietary/vendor/etc/sensors/config/s4_tmd2725_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/s4_tmd2725_0.json \
-    vendor/google/sargo/proprietary/vendor/etc/thermal-engine-sargo.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sargo.conf \
-    vendor/google/bonito/proprietary/lib/dsp/elmyra.so:$(TARGET_COPY_OUT_SYSTEM)/lib/dsp/elmyra.so \
     vendor/google/sargo/proprietary/vendor/firmware/confirmationui_fonts/LeapFrog_Google_Sans_Display_60.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/confirmationui_fonts/LeapFrog_Google_Sans_Display_60.bin \
+    vendor/google/bonito/proprietary/lib/dsp/elmyra.so:$(TARGET_COPY_OUT_SYSTEM)/lib/dsp/elmyra.so \
     vendor/google/sargo/proprietary/vendor/firmware/confirmationui_fonts/LeapFrog_Google_Sans_Display_Medium_38.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/confirmationui_fonts/LeapFrog_Google_Sans_Display_Medium_38.bin \
     vendor/google/sargo/proprietary/vendor/firmware/confirmationui_fonts/LeapFrog_Roboto_38.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/confirmationui_fonts/LeapFrog_Roboto_38.bin \
     vendor/google/sargo/proprietary/vendor/firmware/synaptics_0.img:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics_0.img \

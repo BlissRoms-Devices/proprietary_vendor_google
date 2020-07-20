@@ -180,7 +180,6 @@ PRODUCT_PACKAGES += \
     VZWAPNLib \
     AmbientSensePrebuilt \
     AppDirectedSMSService \
-    CarrierServices \
     CarrierSettings \
     CarrierSetup \
     ConnMO \
